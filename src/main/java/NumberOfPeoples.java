@@ -7,7 +7,7 @@ public class NumberOfPeoples {
                 "  (число должно быть больше 0): ");
         int numberOfFriends;
         while (true) {
-            if (scanner.hasNextInt()){
+            if (scanner.hasNextInt()) {
                 numberOfFriends = scanner.nextInt();
                 if (numberOfFriends == 1) {
                     System.out.println("Вы платите за всё один, делить счёт смысла нет.");
@@ -23,6 +23,7 @@ public class NumberOfPeoples {
                 scanner.next();
             }
         }
+//        scanner.close();
         return numberOfFriends;
     }
 }

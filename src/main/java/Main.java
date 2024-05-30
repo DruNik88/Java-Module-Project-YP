@@ -3,6 +3,12 @@ public class Main {
     public static void main(String[] args) {
         instructionCount();
         int number = NumberOfPeoples.numberOfPeoples();
+        if (number == 1) {
+            System.out.println("Плати");
+        } else {
+            ProductAndPrice.nameProduct();
+        }
+
 
     }
 
