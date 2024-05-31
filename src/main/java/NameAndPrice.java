@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ProductAndPrice {
+public class NameAndPrice {
     public static String nameProduct() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("   Введите наименование товара\n" +
@@ -13,7 +13,6 @@ public class ProductAndPrice {
             } else if (nameProduct.length() < 2) {
                 System.out.println("Слишком короткое название (меньше 2 символов). Введите ещё раз.");
             } else {
-                System.out.println("Наименование товара: " + nameProduct);
                 break;
             }
         }
@@ -27,7 +26,6 @@ public class ProductAndPrice {
         while (true) {
             if (scanner.hasNextDouble()){
                 priceProduct = scanner.nextDouble();
-                System.out.println("Цена: " + priceProduct);
                 break;
             } else {
                 System.out.println("Неверный формат ввода. Попробуйте заново.");
