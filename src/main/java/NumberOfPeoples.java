@@ -13,7 +13,7 @@ public class NumberOfPeoples {
                     System.out.println("Вы платите за всё один, делить счёт смысла нет.");
                     break;
                 } else if (numberOfFriends > 1) {
-                    System.out.println("Счёт будет поделен на: " + numberOfFriends);
+                    System.out.printf("Счёт будет поделен на: %d %s%n", numberOfFriends, Formatting.endingPeoples(numberOfFriends));
                     break;
                 } else {
                     System.out.println("Введено некорректное значение. Попробуйте ещё раз.");
