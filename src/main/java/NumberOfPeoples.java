@@ -23,7 +23,6 @@ public class NumberOfPeoples {
                 scanner.next();
             }
         }
-//        scanner.close();
         return numberOfFriends;
     }
 }
