@@ -16,7 +16,7 @@ public class Calculate {
             System.out.printf("Вы добавили: %s, стоимостью: %.2f %s%n", product.name, product.price, Formatting.endingRuble(product.price));
 
             System.out.println("Хотите ли добавить ещё товар? Или стоит завершить?");
-            System.out.println("Для добавления нажмите любую кнопку.");
+            System.out.println("Для добавления нажмите \"Ввод/Enter\" любую кнопку.");
             System.out.println("Для завершения введите \"Завершить\"");
             String endProgram = scanner.nextLine();
             if (endProgram.equalsIgnoreCase("Завершить")) {
